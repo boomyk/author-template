@@ -85,4 +85,199 @@ h6 {
     background: url(/../author-template/images/header.png) center no-repeat;
     background-size: cover;
     height: 100%;
+    .caruser-tittle-block {
+        bottom: 25%;
+        .carusel-tittle-text {
+            font-size: 63px;
+            margin-bottom: 80px;
+        }
+        .caruser-tittle-p {
+            font-size: 23px;
+            margin: 0 auto 130px;
+            width: 380px;
+        }
+        .carusel-tittle-btn {
+            font-size: 26px;
+            padding: 5px 25px;
+        }
+    }
+}
+
+.header-navbar {
+    margin-bottom: 3px;
+}
+
+.carousel-control-next-icon{
+    background-image: url(/../author-template/images/next-icon.png);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(/../author-template/images/prev-icon.png);
+}
+
+.carousel-indicators-display {
+    display: none;
+}
+
+.benef-cards {
+    padding: 100px 0;
+    .benef-item {
+        text-align: center;
+        border: none;
+        .benef-tittle {
+            font-size: 22px;
+            color: $main-color;
+            margin: 30px 0;
+        }
+        .benef-item-link {
+            color: #fff;
+            background-color: $active-color;
+            border: 1px solid $active-color;
+            font-size: $main-fsize;
+            font-family: $main-font;
+            padding: 5px 25px;
+        }
+        .benef-item-link:hover {
+            color: $main-color;
+            background-color: #fff;
+        }
+        img {
+            width: 100px;
+            margin: 0 auto;
+        }
+        p {
+            color: $main-color;
+        }
+    }
+}
+
+.portfolio {
+    h2 {
+        margin-bottom: 50px;
+    }
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 60px 0;
+    .portfolio-container {
+        .portfolio-columns {
+            padding-right: 0;
+            padding-left: 0;
+        }
+    }
+    .portfolio-block {
+        padding: 20px;
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+    .portfolio-btn {
+        &:hover {
+            background-color: #f1f1f1;
+            color: $main-color;
+            border: 1px solid $active-color;
+        }
+            color: #fff;
+            background-color: $active-color;
+            border: 1px solid $active-color;
+            font-size: 24px;
+            font-family: $main-font;
+            padding: 5px 30px;
+            margin-top: 40px;
+    }
+}
+
+.team {
+    padding: 90px 0;
+    .team-container {
+        text-align: center;
+        h2 {
+            margin-bottom: 130px;
+        }
+        .team-block {
+            border: none;
+        }
+        .team-img {
+            width: 200px;
+            margin: 0 auto;
+        }
+        .team-inner-text {
+            margin-top: 60px;
+            p {
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+.plans {
+    background-color: #f1f1f1;
+    .plans-inner {
+        text-align: center;
+        margin: 0 auto;
+        justify-content: space-between;
+        .plans-inner-block {
+            padding-left: 0;
+            padding-right: 0;
+            max-width: 410px;
+            width: 100%;
+        }
+        
+    }
+    .plans-name {
+        height: 70px;
+        line-height: 70px;
+        font-size: 26px;
+        background-color: #485460;
+        color: #fff;
+        border-top-right-radius: 2px;
+        border-top-left-radius: 2px;
+    }
+    .plans-costs {
+        height: 70px;
+        line-height: 70px;
+        font-size: 20px;
+        background-color: #f8f9fb;
+        color: $main-color;
+    }
+    .plans-items {
+        div {
+            height: 45px;
+            line-height: 45px;
+            font-size: $main-fsize;
+            background-color: #fff;
+            color: #8c9299;
+        }
+    }
+    .plans-btn {
+        height: 100px; 
+        line-height: 100px;
+        background-color: #f8f9fb;
+        button {
+            &:hover {
+                color: #788492;
+                background-color: #f8f9fb;
+            }
+            font-size: 17px;
+            color: #fff;
+            background-color: #788492;
+            border: 1px solid #788492;
+            padding: 7px 40px;
+        }
+    }
+}
+
+.plans-inner-mod {
+    .plans-name {
+        background-color: $active-color;
+    }
+    .plans-btn {
+        button {
+            &:hover{
+                color: $active-color;
+            }
+            background-color: $active-color;
+            border: 1px solid $active-color;
+        }
+    }
 }

@@ -61,5 +61,150 @@ h6 {
   background: url(/../author-template/images/header.png) center no-repeat;
   background-size: cover;
   height: 100%; }
+  .header-carusel .caruser-tittle-block {
+    bottom: 25%; }
+    .header-carusel .caruser-tittle-block .carusel-tittle-text {
+      font-size: 63px;
+      margin-bottom: 80px; }
+    .header-carusel .caruser-tittle-block .caruser-tittle-p {
+      font-size: 23px;
+      margin: 0 auto 130px;
+      width: 380px; }
+    .header-carusel .caruser-tittle-block .carusel-tittle-btn {
+      font-size: 26px;
+      padding: 5px 25px; }
+
+.header-navbar {
+  margin-bottom: 3px; }
+
+.carousel-control-next-icon {
+  background-image: url(/../author-template/images/next-icon.png); }
+
+.carousel-control-prev-icon {
+  background-image: url(/../author-template/images/prev-icon.png); }
+
+.carousel-indicators-display {
+  display: none; }
+
+.benef-cards {
+  padding: 100px 0; }
+  .benef-cards .benef-item {
+    text-align: center;
+    border: none; }
+    .benef-cards .benef-item .benef-tittle {
+      font-size: 22px;
+      color: #4e525d;
+      margin: 30px 0; }
+    .benef-cards .benef-item .benef-item-link {
+      color: #fff;
+      background-color: #49cbcd;
+      border: 1px solid #49cbcd;
+      font-size: 14px;
+      font-family: "Open Sans", sans-serif;
+      padding: 5px 25px; }
+    .benef-cards .benef-item .benef-item-link:hover {
+      color: #4e525d;
+      background-color: #fff; }
+    .benef-cards .benef-item img {
+      width: 100px;
+      margin: 0 auto; }
+    .benef-cards .benef-item p {
+      color: #4e525d; }
+
+.portfolio {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 60px 0; }
+  .portfolio h2 {
+    margin-bottom: 50px; }
+  .portfolio .portfolio-container .portfolio-columns {
+    padding-right: 0;
+    padding-left: 0; }
+  .portfolio .portfolio-block {
+    padding: 20px; }
+    .portfolio .portfolio-block img {
+      width: 100%;
+      display: block; }
+  .portfolio .portfolio-btn {
+    color: #fff;
+    background-color: #49cbcd;
+    border: 1px solid #49cbcd;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    padding: 5px 30px;
+    margin-top: 40px; }
+    .portfolio .portfolio-btn:hover {
+      background-color: #f1f1f1;
+      color: #4e525d;
+      border: 1px solid #49cbcd; }
+
+.team {
+  padding: 90px 0; }
+  .team .team-container {
+    text-align: center; }
+    .team .team-container h2 {
+      margin-bottom: 130px; }
+    .team .team-container .team-block {
+      border: none; }
+    .team .team-container .team-img {
+      width: 200px;
+      margin: 0 auto; }
+    .team .team-container .team-inner-text {
+      margin-top: 60px; }
+      .team .team-container .team-inner-text p {
+        margin-top: 30px; }
+
+.plans {
+  background-color: #f1f1f1; }
+  .plans .plans-inner {
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-between; }
+    .plans .plans-inner .plans-inner-block {
+      padding-left: 0;
+      padding-right: 0;
+      max-width: 410px;
+      width: 100%; }
+  .plans .plans-name {
+    height: 70px;
+    line-height: 70px;
+    font-size: 26px;
+    background-color: #485460;
+    color: #fff;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+  .plans .plans-costs {
+    height: 70px;
+    line-height: 70px;
+    font-size: 20px;
+    background-color: #f8f9fb;
+    color: #4e525d; }
+  .plans .plans-items div {
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    background-color: #fff;
+    color: #8c9299; }
+  .plans .plans-btn {
+    height: 100px;
+    line-height: 100px;
+    background-color: #f8f9fb; }
+    .plans .plans-btn button {
+      font-size: 17px;
+      color: #fff;
+      background-color: #788492;
+      border: 1px solid #788492;
+      padding: 7px 40px; }
+      .plans .plans-btn button:hover {
+        color: #788492;
+        background-color: #f8f9fb; }
+
+.plans-inner-mod .plans-name {
+  background-color: #49cbcd; }
+.plans-inner-mod .plans-btn button {
+  background-color: #49cbcd;
+  border: 1px solid #49cbcd; }
+  .plans-inner-mod .plans-btn button:hover {
+    color: #49cbcd; }
 
 /*# sourceMappingURL=styles.css.map */
