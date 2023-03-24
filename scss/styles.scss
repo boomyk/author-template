@@ -211,6 +211,7 @@ h6 {
 }
 
 .plans {
+    padding: 110px 0;
     background-color: #f1f1f1;
     .plans-inner {
         text-align: center;
@@ -265,6 +266,9 @@ h6 {
             padding: 7px 40px;
         }
     }
+    .plans-inner-content {
+        margin-bottom: 0;
+    }
 }
 
 .plans-inner-mod {
@@ -278,6 +282,114 @@ h6 {
             }
             background-color: $active-color;
             border: 1px solid $active-color;
+        }
+    }
+}
+
+.footer {
+    background: url(/../author-template/images/footer-bg.png) center;
+    background-size: cover;
+    padding: 100px 0;
+    .footer-inner-contacts {
+        padding: 0;
+    }
+    .footer-form-fields {
+        input {
+            &::placeholder {
+                color: #c1c1c1;
+            }
+        }
+        display: inline-block;
+        width: 48%;
+        margin: 20px 0;
+        padding-left: 30px;
+    }
+    .contact-us {
+        text-align: center;
+        padding-bottom: 80px;
+        h2 {
+            color: #fff;
+            font-size: 42px;
+        }
+    }
+    .footer-inner-text {
+        padding-bottom: 10px;
+        h3 {
+            font-size: 24px;
+            color: #fff;
+        }
+        p {
+            font-size: $main-fsize;
+            color: #797979;
+            max-width: 430px;
+        }
+    }
+    .footer-info {
+        p {
+            margin: 0;
+            color: #bface2;
+        }
+    }
+    .footer-socials {
+        margin: 25px 0;
+        a {
+            text-decoration: none;
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            background: #3b5997;
+            border-radius: 50%;
+            text-align: center;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+        .soc-twitter {
+            background: #3ec2f3;
+        }
+        .soc-google {
+            background: #e44c41;
+        }
+        i {
+            color: #fff;
+            line-height: 50px;
+            font-size: 23px;
+        }
+    }
+    .footer-inner-form {
+        padding: 0;
+        .footer-form {
+            form {
+                text-align: right;
+                .footer-form-textarea {
+                    textarea {
+                        &::placeholder {
+                            color: #c1c1c1;
+                        }
+                        min-height: 180px;
+                        resize: none;
+                    }
+                    width: 96%;
+                    padding-left: 25px;
+                    text-align: right;
+                    margin: 0 26px;
+                    margin-bottom: 30px;
+                }
+                .footer-btn {
+                    &:hover {
+                        color: $main-color;
+                        background-color: #fff;
+                    }
+                    max-width: 160px;
+                    width: 100%;
+                    height: 45px;
+                    line-height: 22px;
+                    font-size: 22px;
+                    color: #fff;
+                    background: $active-color;
+                    border: 1px solid $active-color;
+                }
+            }
+            
         }
     }
 }

@@ -155,6 +155,7 @@ h6 {
         margin-top: 30px; }
 
 .plans {
+  padding: 110px 0;
   background-color: #f1f1f1; }
   .plans .plans-inner {
     text-align: center;
@@ -198,6 +199,8 @@ h6 {
       .plans .plans-btn button:hover {
         color: #788492;
         background-color: #f8f9fb; }
+  .plans .plans-inner-content {
+    margin-bottom: 0; }
 
 .plans-inner-mod .plans-name {
   background-color: #49cbcd; }
@@ -206,5 +209,84 @@ h6 {
   border: 1px solid #49cbcd; }
   .plans-inner-mod .plans-btn button:hover {
     color: #49cbcd; }
+
+.footer {
+  background: url(/../author-template/images/footer-bg.png) center;
+  background-size: cover;
+  padding: 100px 0; }
+  .footer .footer-inner-contacts {
+    padding: 0; }
+  .footer .footer-form-fields {
+    display: inline-block;
+    width: 48%;
+    margin: 20px 0;
+    padding-left: 30px; }
+    .footer .footer-form-fields input::placeholder {
+      color: #c1c1c1; }
+  .footer .contact-us {
+    text-align: center;
+    padding-bottom: 80px; }
+    .footer .contact-us h2 {
+      color: #fff;
+      font-size: 42px; }
+  .footer .footer-inner-text {
+    padding-bottom: 10px; }
+    .footer .footer-inner-text h3 {
+      font-size: 24px;
+      color: #fff; }
+    .footer .footer-inner-text p {
+      font-size: 14px;
+      color: #797979;
+      max-width: 430px; }
+  .footer .footer-info p {
+    margin: 0;
+    color: #bface2; }
+  .footer .footer-socials {
+    margin: 25px 0; }
+    .footer .footer-socials a {
+      text-decoration: none;
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      background: #3b5997;
+      border-radius: 50%;
+      text-align: center;
+      vertical-align: middle;
+      margin-right: 10px; }
+    .footer .footer-socials .soc-twitter {
+      background: #3ec2f3; }
+    .footer .footer-socials .soc-google {
+      background: #e44c41; }
+    .footer .footer-socials i {
+      color: #fff;
+      line-height: 50px;
+      font-size: 23px; }
+  .footer .footer-inner-form {
+    padding: 0; }
+    .footer .footer-inner-form .footer-form form {
+      text-align: right; }
+      .footer .footer-inner-form .footer-form form .footer-form-textarea {
+        width: 96%;
+        padding-left: 25px;
+        text-align: right;
+        margin: 0 26px;
+        margin-bottom: 30px; }
+        .footer .footer-inner-form .footer-form form .footer-form-textarea textarea {
+          min-height: 180px;
+          resize: none; }
+          .footer .footer-inner-form .footer-form form .footer-form-textarea textarea::placeholder {
+            color: #c1c1c1; }
+      .footer .footer-inner-form .footer-form form .footer-btn {
+        max-width: 160px;
+        width: 100%;
+        height: 45px;
+        line-height: 22px;
+        font-size: 22px;
+        color: #fff;
+        background: #49cbcd;
+        border: 1px solid #49cbcd; }
+        .footer .footer-inner-form .footer-form form .footer-btn:hover {
+          color: #4e525d;
+          background-color: #fff; }
 
 /*# sourceMappingURL=styles.css.map */
